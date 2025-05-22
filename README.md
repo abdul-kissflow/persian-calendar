@@ -2,6 +2,8 @@
 
 This is a Kissflow's custom form field project, scaffolded using `@kissflow/create-kf-component`.
 
+![Project Preview](./preview.png)
+
 ### To install dependencies,
 
 ```bash
