@@ -11,7 +11,10 @@ function FormField(props) {
             calendar={persian}
             locale={persian_fa}
             value={value}
-            onChange={updateValue}
+            onChange={(dateObject) => {
+                console.log(dateObject.format())
+                updateValue(dateObject.format())
+            }}
         />
     )
 }
